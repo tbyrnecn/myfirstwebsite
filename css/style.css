@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hotpink;
+  color: yellow;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: lawngreen;
+  color: black;
+  font-family: "Dancing Script", cursive;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar li a {
+  text-decoration: none;
+  padding: 15px 10px;
+}
+
+.navbar li a:hover {
+  background-color: orangered;
+  color: darkgreen;
+}
+
+.footer {
+  text-align: center;
+  background-color: lawngreen;
+  color: black;
+  padding: 20px 50px;
+  bottom: 0;
+  position: absolute;
+  width: 90%;
+}
+
+.pic {
+  height: 200px;
+  width: 200px;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+}
+
+.about-me {
+  text-align: center;
+  justify-content: center;
+}
+
+#cbox {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+}
